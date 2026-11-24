@@ -1,0 +1,20 @@
+# 模型与下载产物（体积过大，不上传）
+whisper-models/
+downloads/
+*.pt
+*.mp4
+*.mkv
+*.flv
+
+# 登录凭据（切勿上传）
+engine/config.yml
+engine/.cookies.json
+engine/config/cookies.json
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 日志与临时文件
+*.log
+Squirrel-*.log
